@@ -1,0 +1,293 @@
+/* SECTION THREE */
+
+.section-three {
+	background-color: whitesmoke;
+	flex-basis: 25%;
+	/* height: 100vh; */
+	position: relative;
+	padding: 1rem;
+}
+
+.section-three > div {
+	position: fixed;
+}
+
+.events {
+	display: flex;
+	justify-content: space-between;
+	/* border: 2px solid red; */
+}
+
+.section-three > div > .events > span,
+.Advert {
+	font-size: small;
+	font-weight: bolder;
+	/* border: 2px solid green; */
+}
+
+.event-items {
+	display: flex;
+	margin-top: 1rem;
+	justify-content: space-between;
+}
+.event-item1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* outline: none;
+	border:none; */
+	height: 70px;
+	width: 70px;
+	border-radius: 10px;
+	box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+	/* border: 2px solid red; */
+}
+
+.event-number {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 900;
+	/* border: 2px solid red; */
+	flex: 1;
+}
+
+.event-month {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	height: 25px;
+	width: 100%;
+	font-weight: 700;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: blue;
+}
+
+.event-item2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* align-items: center; */
+	width: 63%;
+}
+
+.social-media {
+	color: #333;
+	font-weight: bold;
+	font-size: x-small;
+}
+
+.location {
+	margin: 0.25rem 0;
+}
+
+.location > small {
+	font-size: 0.5rem;
+	color: #aaa;
+}
+
+.Advert {
+	margin-top: 1rem;
+}
+
+.office-women {
+	margin-top: 1rem;
+}
+
+.office-women > img {
+	border-radius: 0.5rem;
+}
+
+.passport-text {
+	display: flex;
+	/* border: 2px solid red; */
+	align-items: center;
+	margin-top: 1rem;
+}
+.one-image {
+	height: 30px;
+	width: 30px;
+	position: relative;
+	border-radius: 50%;
+}
+
+.passport-text img {
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+}
+
+.passport-text > span {
+	margin-left: 1rem;
+	font-size: small;
+	font-weight: lighter;
+	color: #999;
+}
+
+/* .profile-passports > .one-image {
+	position: relative;
+} */
+
+.profile-passports .one-image::after {
+	content: '';
+	height: 8px;
+	width: 8px;
+	position: absolute;
+	background-color: lime;
+	border-radius: 50%;
+	bottom: 0px;
+	right: -1px;
+	border: 3px solid #fff;
+}
+
+/* ======================================================================================= */
+
+/* SECTION THREE ANNEX */
+.section-threeannex {
+	display: flex;
+	/* border: 2px solid red; */
+	align-items: center;
+	box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+	padding: 0 0.5rem;
+
+	position: absolute;
+	top: -20px;
+	background-color: white;
+	height: 0;
+	overflow: hidden;
+	transition: all 0.5s linear;
+}
+
+.both-annexes {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.section-threeannex1,
+.section-threeannex2 {
+	display: flex;
+	align-items: center;
+	padding: 0.75rem 0.25rem;
+	border-bottom: 2px solid #eee;
+}
+
+.Feed-back {
+	margin-right: 0.5rem;
+}
+
+.section-threeannex1 .profile-pics {
+	margin: 0;
+	margin-right: 0.5rem;
+}
+
+.john-profile {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	/* align-items: center; */
+	/* margin-top: 1rem; */
+}
+
+.john-profile > h3,
+.john {
+	/* letter-spacing:2px; */
+	font-size: small;
+	font-weight: lighter;
+	/* width:auto; */
+	color: #999;
+}
+
+.Feed-back {
+	/* margin-left: 1rem; */
+}
+
+.john {
+	margin-bottom: 3px;
+}
+
+.john-hr {
+	/* border: 2px solid #efefef; */
+}
+
+/* .grey{
+	
+} */
+
+.annex-logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background-color: #ddd;
+	font-size: large;
+	height: 1.25rem;
+	width: 1.25rem;
+}
+
+.fa-gear {
+	font-size: small;
+}
+.fa-angle-right {
+	color: #999;
+}
+
+.annex-pointer {
+	margin-left: 3rem;
+}
+
+.Dark-mode {
+	background-color: #999;
+	border: 2px solid #999;
+	height: 20px;
+	width: 40px;
+	border-radius: 10px;
+	position: relative;
+	margin-left: 3rem;
+}
+
+.circle {
+	border-radius: 50%;
+	height: 17px;
+	width: 17px;
+	background-color: #fff;
+	position: absolute;
+	/* left: 0; */
+	transition: all 0.5s linear;
+	/* border: 2px solid red; */
+}
+
+/* LAST ANNEX */
+.all-annex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* border: 2px solid red; */
+	padding: 0.5rem;
+}
+
+.last-annex {
+	/* margin-right: 5rem; */
+	display: flex;
+	align-items: center;
+}
+
+.last-annex > .fa-gear {
+	margin-right: 0.25rem;
+}
+
+.icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #aaa;
+	border-radius: 50%;
+	height: 23px;
+	width: 23px;
+	margin-right: 0.25rem;
+	/* border: 2px solid red; */
+}

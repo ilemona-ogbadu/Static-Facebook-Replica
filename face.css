@@ -1,0 +1,187 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	background-color: lightgray;
+	padding-top: 3rem;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	background-color: #4267b2;
+	padding: 0.5rem 2rem;
+	align-items: center;
+	position: fixed;
+	z-index: 3;
+	top: 0;
+	width: 100%;
+}
+
+.fa-facebook {
+	font-size: xx-large;
+}
+
+.mona {
+	margin-left: 0.25rem;
+	font-weight: 300;
+}
+
+.left-nav {
+	display: flex;
+	/* border: 2px solid green; */
+	align-items: center;
+	color: white;
+	/* border: 2px solid red; */
+}
+
+.left-nav ul {
+	display: flex;
+}
+
+.left-nav ul li {
+	list-style-type: none;
+	padding: 0 1rem;
+}
+
+.right-nav {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	/* border: 2px solid red; */
+	/* background-color: white; */
+}
+
+.search {
+	display: flex;
+	background-color: white;
+	padding: 0.25rem;
+	border-radius: 1.25rem;
+	align-items: center;
+}
+
+.search input {
+	border: none;
+	outline: none;
+}
+
+.profile-pics {
+	margin-left: 1rem;
+	border-radius: 50%;
+	height: 25px;
+	width: 25px;
+	position: relative;
+	/* border: 2px solid red; */
+}
+
+.profile-pics > img {
+	border-radius: 50%;
+	height: 100%;
+	width: 100%;
+}
+
+.profile-pics::after {
+	content: '';
+	height: 6px;
+	width: 6px;
+	position: absolute;
+	background-color: lime;
+	border-radius: 50%;
+	top: -2px;
+	right: -3px;
+	border: 2px solid #fff;
+}
+
+main {
+	display: flex;
+}
+
+.section-one {
+	flex-basis: 25%;
+	padding: 1rem;
+	position: relative;
+}
+
+li {
+	list-style: none;
+}
+
+.section-one > div {
+	position: fixed;
+	/* top: 50px; */
+	/* left: 0; */
+	/* width: 25%; */
+	/* border: 2px solid green; */
+	/* padding: 0.5rem 2rem; */
+}
+
+.items > ul > li {
+	margin-bottom: 1rem;
+}
+
+.items > ul > li > i {
+	/* margin-right: 1rem; */
+	color: #4267b2;
+	font-size: 1rem;
+}
+
+.items-one span,
+.items span {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-weight: 100;
+	margin-left: 0.75rem;
+	/* border: 2px solid brown; */
+}
+
+a {
+	text-decoration: none;
+	font-size: 0.5rem;
+}
+
+.section-content {
+	/* border: 2px solid pink; */
+	/* color: black; */
+	/* color:white; */
+	color: #4267b2;
+}
+
+hr {
+	margin-top: 1rem;
+}
+
+.Shortcuts {
+	margin-top: 1rem;
+	/* border: 2px solid red; */
+}
+
+.items-one {
+	display: flex;
+	align-items: center;
+	margin-top: 1rem;
+	/* color: black; */
+	/* color:white; */
+	color: #4267b2;
+}
+
+.Shortcuts {
+	display: flex;
+	align-items: center;
+	/* border: 2px solid purple; */
+	color: #4267b2;
+}
+
+.items-one > img {
+	width: 25px;
+	height: 25px;
+}
+
+/* SECTION TWO */
+.section-two {
+	flex-basis: 50%;
+	/* height: 100vh; */
+}
